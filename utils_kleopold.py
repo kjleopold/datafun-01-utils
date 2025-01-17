@@ -61,14 +61,16 @@ byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Roller Skate Sales Data
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+We Sell Roller Skates:    {sells_roller_skates}
+We Sell Roller Skate Accessories:    {sells_roller_skate_accessories}
+Number of Roller Skate Brands in Stock:    {skate_brands_in_stock}
+Average Roller Skate Sales Per Month:    {average_sales_per_month}
+Skate Brands Sold:    {skate_brands_sold}
+Customer Review Scores:    {customer_review_scores}
+Minimum Review Score:    {min_score}
+Maximum Review Score:    {max_score}
+Mean Review Score:    {mean_score:.2f}
+Standard Deviation of Review Scores:    {stdev_score:.2f}
 """
 
 #####################################
