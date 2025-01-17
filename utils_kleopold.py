@@ -28,30 +28,31 @@ import statistics  # provides mean(), stdev() and more....
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = True
+sells_roller_skates: bool = True
+sells_roller_skate_accessories: bool = False
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+skate_brands_in_stock: int = 6
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+average_sales_per_month: float = 77.7
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+skate_brands_sold: list = ["Moxi Roller Skates", "Impala Roller Skates", "Riedell", "Sure Grip"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
-client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+customer_review_scores: list = [9.5, 4.7, 8.2, 7.0, 6.3]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(customer_review_scores)  
+max_score: float = max(customer_review_scores)  
+mean_score: float = statistics.mean(customer_review_scores)  
+stdev_score: float = statistics.stdev(customer_review_scores)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
