@@ -59,7 +59,7 @@ stdev_score: float = statistics.stdev(customer_review_scores)
 # TODO: Modify the variables in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
+Stellar Analytics: Roller Skate Sales Data
 ---------------------------------------------------------
 Has International Clients:  {has_international_clients}
 Years in Operation:         {years_in_operation}
