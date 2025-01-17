@@ -1,11 +1,11 @@
 """
 Module: utils_kleopold
 
-Purpose: Reusable Module for My Analytics Projects
+Purpose: To show roller skate sales data collected.
 
-Description: This module provides a byline for my analytics projects. 
-When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
+Description: This data was collected over a 12 month period.
+The goal is to determine if there are enough sales to continue
+to stock roller skates in our stores.
 
 Author: Kellie Leopold
 
@@ -33,7 +33,7 @@ sells_roller_skate_accessories: bool = False
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-skate_brands_in_stock: int = 6
+skate_brands_in_stock: int = 4
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
