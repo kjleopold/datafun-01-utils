@@ -1,2 +1,4 @@
 # datafun-01-utils
-P1: Create a New Python Module
+Reusable utilities for my Python projects
+
+Test your Python code with [Python Online](https://www.online-python.com)
